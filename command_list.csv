@@ -1,0 +1,29 @@
+    1  git clone https://github.com/Gewher/HW_10.git
+    2  pwd
+    3  ls
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  nano .gitignore
+    7  git status
+    8  git commit -m " 'gitignore' was updated TASK-1"
+    9  git add .gitignore
+   10  git commit -m " 'gitignore' was updated TASK-1"
+   11  git status
+   12  touch main_test.txt
+   13  git add main_test.tx
+   14  git add main_test.txt
+   15  git commit -m "'main_tests' was added TASK 2"
+   16  git status
+   17  git checkout -b develop
+   18  touch develop_test.txt
+   19  git add develop_test.txt
+   20  nano develop_test.txt
+   21  git status
+   22  git add develop_test.txt
+   23  git commit -m "'develop_test.txt' was updated with some text message TASK 3"
+   24  git status
+   25  git checkout main
+   26  git merge develope
+   27  git merge develop
+   28  git log
+   29  history > command_list.csv
